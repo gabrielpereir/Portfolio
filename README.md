@@ -10,6 +10,7 @@ Sou apaixonado por tecnologia e estou em busca da minha primeira oportunidade pr
 
 - **Linguagens de Programação:** HTML, CSS, JavaScript (em aprendizado).
 - **Banco de Dados:** Conhecimento básico em SQL.
+-  **Csharp** Conhecimento básico.
 - **Educação:** Graduando em Análise e Desenvolvimento de Sistemas na UMC.
 
 ## Projetos
