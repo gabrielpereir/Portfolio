@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<!-- Cabeçalho da página -->
+  <header>
+        <h1>dados do cadastro</h1>
+        <p>dados Pessoais</p>
+        <br>
+        <form action="Cadastro">
+</header>
+    
+    <main>
+   <div>
+    <!-- Campo: Nome -->
+        <label for="nome">nome completo</label> <br>
+        <input type="text" name="nome" id="nome">
+        <br>
+ 
+    </div>
+
+    <div>
+ <!-- Campo: Data de Nascimento -->
+        <label for="data">nascimento</label> <br>
+        <input type="date" name="data" id="data">
+        <br>
+
+<!-- Campo: idade -->
+        <label for="idade">idade</label> <br>
+        <input type="number" name="idade" id="idade"
+        placeholder="digite sua idade" maxlength="999"required/>
+        <br>
+
+    <!-- Campo: Telefone -->
+    <label for="telefone">telefone <br></label>
+        <input type="tel" name="telefone" id="telefone" 
+        pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}"
+        placeholder="(xx)xxxx-xxxx" maxlength="10"/>
+        <br>
+
+        <!-- Campo: Celular -->
+    <label for="celular">celular <br> </label>
+        <input type="tel" name="celular" id="celular" 
+        pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"
+        placeholder="(xx)xxxxx-xxxx" maxlength="11" required/>
+        <br>
+
+    <!-- Campo: Email -->
+        <label for="email">email</label> <br>
+        <input type="email" name="email" id="email">
+        <br>
+
+        <div class="endereco">
+        <p>Endereço</p> <br>
+
+        <!-- Campo: CEP -->
+        <label for="cep">cep</label> <br>
+        <input type="text" name="cep" id="cep"
+        pattern="[0-9]{5}-[0-9]{3}" placeholder="xxxxx-xxx" maxlength="8" required/>
+        <br>
+
+        <!-- Campo: Endereço -->
+        <label for="endereco">endereço</label> <br>
+        <input type="text" name="endereco" id="endereco"
+        maxlength="350" required/>
+        <br>
+
+        <!-- Campo: número -->
+        <label for="numero">número</label> <br>
+        <input type="text" name="numero" id="numero"
+        maxlength="8" required/>
+        <br>
+
+        <!-- Campo: complemento -->
+        <label for="complemento">complemento</label> <br>
+        <input type="text" name="complemento" id="complemento">
+        <br>
+
+        <!-- Campo: cidade -->
+        <label for="cidade">cidade</label> <br>
+        <input type="text" name="cidade" id="cidade">
+        <br>
+
+
+ <!-- Campo: Estado que nasceu -->
+        <label for="estado">Estado</label> <br>
+        <select name="estado" id="estado">
+        <option selected disabled value="">Escolha</option>
+        <option>Acre</option>
+        <option>Alagoas</option>
+        <option>Amapá</option>
+        <option>Amazonas</option>
+        <option>Bahia</option>
+        <option>Ceará</option>
+        <option>Distrito Federal</option>
+        <option>Espírito Santo</option>
+        <option>Goiás</option>
+        <option>Maranhão</option>
+        <option>Mato Grosso</option>
+        <option>Mato Grosso do Sul</option>
+        <option>Minas Gerais</option>
+        <option>Pará</option>
+        <option>Paraíba</option>
+        <option>Paraná</option>
+        <option>Pernambuco</option>
+        <option>Piauí</option>
+        <option>Rio de Janeiro</option>
+        <option>Rio Grande do Norte</option>
+        <option>Rio Grande do Sul</option>
+        <option>Rondônia</option>
+        <option>Roraima</option>
+        <option>Santa Catarina</option>
+        <option>São Paulo</option>
+        <option>Sergipe</option>
+        <option>Tocantins</option>
+    </div>
+    </select>
+
+</div>
+    <br>
+
+    
+
+<!-- Campo: cadastrar -->
+    
+    <input class="cadastro" type="submit" value="Cadastrar">
+</form>
+</main>
+
+</body>
+</html>

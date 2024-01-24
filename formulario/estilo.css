@@ -1,0 +1,42 @@
+/* Cabeçalho */
+header {
+
+    /* Titulo */
+    h1 {
+        color: orangered;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    /* Paragráfo */
+    p {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+/* Principal */
+main {
+    label, p {
+        text-transform: capitalize;
+        
+    }
+    input {
+        background-color: rgb(211, 182, 207);
+    }
+    input:focus{
+        background-color: rgb(175, 88, 132);
+    }
+    select{
+        background-color: rgb(211, 182, 207);
+    }
+
+}
+/* botão cadastrar */
+.cadastro{
+    color: white;
+    background-color: rgb(211, 23, 23);
+}
+body{
+    background-color: cornsilk;
+}
